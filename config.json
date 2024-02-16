@@ -1,6 +1,6 @@
 {
   "_commit_hash": null,
-  "_name_or_path": "/home/ubuntu/nashome/PrivatLRZ/nashome/PrivatLRZ/swin_BERT_greek/trocr/",
+  "_name_or_path": "./trocr/",
   "architectures": [
     "VisionEncoderDecoderModel"
   ],
