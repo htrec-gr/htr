@@ -18,14 +18,14 @@ from torchmetrics import CharErrorRate
 import numpy as np
 
 
-# Specify the path to the OcciGen repository
+# Specify the path to the htr repository
 repository_path = '/path/to/htr/'
 
 # Construct the paths relative to the repository
-tokenizer_path = os.path.join(repository_path, 'tokenizer/')
-model_path = os.path.join(repository_path, 'model/')
-image_path = os.path.join(repository_path, 'htr/test_images/')
-label_path = os.path.join(repository_path, 'htr/labels.xlsx')
+tokenizer_path = os.path.join(repository_path)
+model_path = os.path.join(repository_path)
+image_path = os.path.join(repository_path, '/test_images/')
+label_path = os.path.join(repository_path, 'labels.xlsx')
 
 image_dataframe = pd.read_excel(label_path)
 image_dataframe = image_dataframe[image_dataframe["split"] == "test"]
