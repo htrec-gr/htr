@@ -5,8 +5,10 @@ This is the repository for the experiment described in Section 5.4, titled "Enha
 
 --------
 
+# Use case
 
-# Example: Swin + BERT inference and CER calculation in `python`
+Swin + BERT inference and CER calculation in `python`
+
 ```
 import os
 import torch
