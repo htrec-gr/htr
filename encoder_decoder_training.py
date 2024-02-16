@@ -15,10 +15,10 @@ from PIL import Image
 # Specify paths to labels
 
 
-path_labels = '/home/ubuntu/nashome/PrivatLRZ/nashome/PrivatLRZ/swin_BERT_greek/'
-tokenizer_path = '/home/ubuntu/nashome/PrivatLRZ/nashome/PrivatLRZ/swin_BERT_greek/'
-model_path= '/home/ubuntu/nashome/PrivatLRZ/nashome/PrivatLRZ/swin_BERT_greek/'
-output_dir = '/home/ubuntu/nashome/PrivatLRZ/nashome/PrivatLRZ/swin_BERT_greek/trocr/'
+path_labels = './'
+tokenizer_path = './'
+model_path= './'
+output_dir = './trocr/'
 
 # Load labels (training and validation)
 train_df = pd.read_excel(path_labels + 'labels_text_lines.xlsx', header=0)
